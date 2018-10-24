@@ -2,5 +2,21 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongoDS": {
+    "name": "mongoDS",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  },
+  "mongoDB": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "data",
+    "password": "",
+    "name": "mongoDB",
+    "user": "",
+    "connector": "mongodb"
   }
 }
