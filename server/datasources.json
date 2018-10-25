@@ -1,22 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  "mongoDS": {
-    "name": "mongoDS",
-    "localStorage": "",
-    "file": "",
-    "connector": "memory"
-  },
-  "mongoDB": {
+  "dataDB": {
     "host": "localhost",
-    "port": 27017,
+    "port": 5432,
     "url": "",
-    "database": "data",
-    "password": "",
-    "name": "mongoDB",
-    "user": "",
-    "connector": "mongodb"
+    "database": "users",
+    "password": "postgres",
+    "name": "dataDB",
+    "user": "postgres",
+    "connector": "postgresql"
   }
 }
